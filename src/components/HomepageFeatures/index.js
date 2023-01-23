@@ -4,32 +4,47 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '充実したサポート',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+      バグによるロストのサポートにより、サバイバーロストや死体が埋まる　などのバグ被害の心配が必要なく　ほとんどのバグ等のサポートをしているので安心して遊べます
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '遊びやすい設定',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+      社会人や学生など時間がない人　たまにしかログインできない人でも遊びやすい楽しめるように、テイム倍率　ブリーディング　採取などの設定が高めに設定されています
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'しっかりとしたルール',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+      しっかりとしたルールがあるから　MPK 窃盗　場所取りなどがなく安心して遊べる　また違反者の対処も迅速に行われるので安心して楽しくプレイしていただけます
+      </>
+    ),
+  },
+  {
+    title: '楽しいオリジナルイベント',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      公式が行うサマーバッシュイベントなどはもちろん　夏祭りイベントや　運動会など定期的にイベントが開催されています　シングルでは味わえない楽しみが体験できます
+      </>
+    ),
+  },
+  {
+    title: '全てのマップが遊べる',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+      日本では数少ない　全てのマップが遊べるサーバとなっています　またイベントマップとして縛りマップやMODマップもあります 現在はMODマップタエニアステラが開かれています
       </>
     ),
   },

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'にら鯖',
-  tagline: 'ARKの集いにさあ集まれ！',
+  title: 'ARK非公式サーバー ARKプレイヤーの集い',
+  tagline: 'ARKでともにサバイバルを!',
   url: 'https://ark-tsudoi.f5.si',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Ark',
+        title: 'ホーム',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -67,12 +67,12 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'メニュー',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'ブログ', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://discord.gg/mW3jzjunhf',
+            label: 'Discord',
             position: 'right',
           },
         ],
@@ -90,19 +90,15 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'コミュニティ',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/mW3jzjunhf',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/niranuranura',
               },
             ],
           },
