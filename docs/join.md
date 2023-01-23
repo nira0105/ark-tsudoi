@@ -25,7 +25,8 @@ sidebar_position: 4
 
 <details>
   <summary>ゲーム内から名前検索する方法(クリックで開く)</summary>
-  <img src="/img/join/2022-11-28_040003.png" />
+  <img src="/img/join/join_1.png" />
+ 
 </details>
 
 <details>
