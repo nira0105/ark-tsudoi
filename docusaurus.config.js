@@ -81,13 +81,18 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'メニュー',
             items: [
               {
-                label: 'Tutorial',
+                label: 'サーバー紹介',
                 to: '/docs/intro',
               },
+              {
+                label: 'サーバー設定',
+                to: '/docs/rule',
+              },
             ],
+            
           },
           {
             title: 'コミュニティ',
