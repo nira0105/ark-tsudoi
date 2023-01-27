@@ -28,3 +28,8 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+[data-theme='dark'] .hero { color: white; }
+@media screen and (max-width: 600px) {
+  .hero__title { font-size: 33px; }
+}
