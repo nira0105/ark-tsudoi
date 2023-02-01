@@ -13,21 +13,39 @@ function HomepageHeader() {
     <header id="header" className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundColor: "transparent"}}>
       <div class="css-carousel-slider background">
         <div class="slide-wrap-main">
-            <div class="slide"><img src="/img/test_for_hero.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/pc/1.jpg" alt="" /></div>
         </div>
+
         <div class="slide-wrap for-pc">
             <div class="slide"><img src="/img/hero/pc/1.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/pc/2.png" alt="" /></div>
+            <div class="slide"><img src="/img/hero/pc/2.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/pc/3.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/pc/4.png" alt="" /></div>
+        </div>
+
+        <div class="slide-wrap for-pc-medium">
+            <div class="slide"><img src="/img/hero/pc-medium/4 3.jpg" alt="" /></div>
+            <div class="slide"><img src="/img2" alt="" /></div>
             <div class="slide"><img src="img3" alt="" /></div>
             <div class="slide"><img src="img4" alt="" /></div>
         </div>
+
+        <div class="slide-wrap for-sp-medium">
+            <div class="slide"><img src="/img/hero/sp-medium/3 4.jpg" alt="" /></div>
+            <div class="slide"><img src="/img2" alt="" /></div>
+            <div class="slide"><img src="img3" alt="" /></div>
+            <div class="slide"><img src="img4" alt="" /></div>
+        </div>
+
         <div class="slide-wrap for-sp">
-            <div class="slide"><img src="/img/hero/sp/1.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/sp/2.png" alt="" /></div>
+            <div class="slide"><img src="/img/hero/sp/9 16.jpg" alt="" /></div>
+            <div class="slide"><img src="/img2" alt="" /></div>
             <div class="slide"><img src="img3" alt="" /></div>
             <div class="slide"><img src="img4" alt="" /></div>
         </div>
+
       </div>
+
       <div className="container heroContainer">
         <h1 className="hero__title heroFont">{siteConfig.title}</h1><br /><br />
         <div className={styles.buttons}>
