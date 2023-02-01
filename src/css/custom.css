@@ -33,20 +33,17 @@
   background-color: rgba(255, 255, 255, 0.35);
   padding: 5vh;
   border-radius: 0.6rem;
+  align-items: center;
 }
-.slide img { height: 100vh; }
+.slide img { height: 56.3vw; }
 
 .hero {
   color: black;
-  height: 100vh !important;
-  padding-left: 0 !important;
+  height: 56.3vw !important;
 }
 
 @media screen and (max-width: 430px) {
   .hero__title { font-size: 33px; }
-  .for-pc { display: none !important; }
-  .for-pc-medium { display: none !important; }
-  .for-sp-medium { display: none !important; }
   .hero {
     padding: 0 !important;
   }
@@ -54,27 +51,16 @@
 }
 
 @media screen and (min-width: 431px) and (max-width: 900px) {
-  .for-pc-medium { display: none !important; }
-  .for-pc { display: none !important; }
-  .for-sp { display: none !important; }
-  .heroContainer { margin-left: 50wh; }
+  
   .heroContainer { margin: 2rem; }
 }
 
 @media screen and (min-width: 901px) and (max-width: 999px) {
-  .for-sp { display: none !important; }
-  .for-pc { display: none !important; }
-  .for-sp-medium { display: none !important; }
   .heroContainer { margin-left: 50wh; }
-  .heroContainer { margin: 2rem; }
+  
 }
 
-@media screen and (min-width: 1000px) {
-  .for-sp-medium { display: none !important; }
-  .for-pc-medium { display: none !important; }
-  .for-sp { display: none !important; }
-  .heroContainer { margin-left: 50wh; }
-}
+
 
 .heroFont { display: inline; }
 

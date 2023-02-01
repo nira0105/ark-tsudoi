@@ -10,53 +10,34 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header id="header" className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundColor: "transparent"}}>
+    <div>
+      
       <div class="css-carousel-slider background">
         <div class="slide-wrap-main">
-            <div class="slide"><img src="/img/hero/pc/1.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/1.jpg" alt="" /></div>
         </div>
 
-        <div class="slide-wrap for-pc">
-            <div class="slide"><img src="/img/hero/pc/1.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/pc/2.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/pc/3.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/pc/4.png" alt="" /></div>
-        </div>
-
-        <div class="slide-wrap for-pc-medium">
-            <div class="slide"><img src="/img/hero/pc-medium/4 3.jpg" alt="" /></div>
-            <div class="slide"><img src="/img2" alt="" /></div>
-            <div class="slide"><img src="img3" alt="" /></div>
-            <div class="slide"><img src="img4" alt="" /></div>
-        </div>
-
-        <div class="slide-wrap for-sp-medium">
-            <div class="slide"><img src="/img/hero/sp-medium/3 4.jpg" alt="" /></div>
-            <div class="slide"><img src="/img2" alt="" /></div>
-            <div class="slide"><img src="img3" alt="" /></div>
-            <div class="slide"><img src="img4" alt="" /></div>
-        </div>
-
-        <div class="slide-wrap for-sp">
-            <div class="slide"><img src="/img/hero/sp/9 16.jpg" alt="" /></div>
-            <div class="slide"><img src="/img2" alt="" /></div>
-            <div class="slide"><img src="img3" alt="" /></div>
-            <div class="slide"><img src="img4" alt="" /></div>
-        </div>
-
-      </div>
-
-      <div className="container heroContainer">
-        <h1 className="hero__title heroFont">{siteConfig.title}</h1><br /><br />
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/join">
-            参加方法はこちらから
-          </Link>
+        <div class="slide-wrap">
+            <div class="slide"><img src="/img/hero/1.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/2.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/3.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/4.png" alt="" /></div>
         </div>
       </div>
-    </header>
+      <header id="header" className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundColor: "transparent"}}>
+
+        <div className="container heroContainer">
+          <h1 className="hero__title heroFont">{siteConfig.title}</h1><br /><br />
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/join">
+              参加方法はこちらから
+            </Link>
+          </div>
+        </div>
+      </header>
+    </div>
   );
 }
 
