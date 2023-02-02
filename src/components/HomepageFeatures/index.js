@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: '遊びやすい設定',
-    path: DOCUSAURUS,
+    path: "/img/join/R.png",
     description: (
       <>
       社会人や学生など時間がない人　たまにしかログインできない人でも遊びやすい楽しめるように、テイム倍率　ブリーディング　採取などの設定が高めに設定されています
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'しっかりとしたルール',
-    path: DOCUSAURUS,
+    path: "/img/join/Tek_Shield.png",
     description: (
       <>
       しっかりとしたルールがあるから　MPK 窃盗　場所取りなどがなく安心して遊べる　また違反者の対処も迅速に行われるので安心して楽しくプレイしていただけます
@@ -33,7 +33,7 @@ const FeatureList = [
   },
   {
     title: '楽しいオリジナルイベント',
-    path: DOCUSAURUS,
+    path: "/img/join/fire.jpg",
     description: (
       <>
       公式が行うサマーバッシュイベントなどはもちろん　夏祭りイベントや　運動会など定期的にイベントが開催されています　シングルでは味わえない楽しみが体験できます
