@@ -27,7 +27,7 @@ Simple Spawners  　　　　　　　　　　　　　　　　 | [MODペー�
 
 </details>
 
-# MOD紹介
+## MOD紹介
 
 便利MOD　[解説動画](https://youtu.be/Fl_ZgEowdFE)
 

@@ -4,18 +4,18 @@ sidebar_position: 5
 
 # 支援について
 
-# 支援について
+## 支援について
 このサーバーは皆さんの支援の元活動しています　
 少しでも応援したい　楽しめた　って思っていただけた方は支援をしていただけるとありがたいです
 支援してくれた方には特典があります
 
-# 支援金の使い道
+## 支援金の使い道
 
 いただいた支援金は全てサーバーの運営に使用させていただきます　具体的には　電気代　サーバー強化　などです
 
 ARK2のサーバーを立てる資金にもします
 
-# 支援方法
+## 支援方法
 
 支援方法は以下の
 <details>
@@ -34,7 +34,7 @@ PayPay　ID terinira に送金してください
 [クリック](https://www.buymeacoffee.com/terinira)
 </details>
 
-# 支援特典と金額
+## 支援特典と金額
 Buy Me a Coffeeは[クリック](https://www.buymeacoffee.com/terinira)の値段です（少しお得）
 <details>
 <summary>700～1399円/月</summary>
@@ -44,7 +44,7 @@ discord専用ロール（ドードー）
 </details>
 
 <details>
-<summary>1400から2599円/月</summary>
+<summary>1400～2599円/月</summary>
 discord専用ロール（ラプトル）
 毎月好きなスキンとちびペットのどれかを1つ配布(色指定可能)
 サバイバー名の変更申請
