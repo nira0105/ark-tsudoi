@@ -6,16 +6,16 @@ const DOCUSAURUS = "/img/docusaurus.png";
 const FeatureList = [
   {
     title: '充実したサポート',
-    path:"/img/join/setting1.png",
+    path:"/img/join/support1.png",
     description: (
       <>
-      バグによるロストのサポートにより、サバイバーロストや死体が埋まる　などのバグ被害の心配が必要なく　ほとんどのバグ等のサポートをしているので安心して遊べます
+      バグによるロストななどの<a href= "docs/support" >サポート</a>により、サバイバーロストや死体が埋まる　などのバグ被害の心配が必要なく　ほとんどのバグ等のサポートをしているので安心して遊べます
       </>
     ),
   },
   {
     title: '遊びやすい設定',
-    path: "/img/join/R.png",
+    path: "/img/join/setting2.png",
     description: (
       <>
       社会人や学生など時間がない人　たまにしかログインできない人でも遊びやすい楽しめるように、テイム倍率　ブリーディング　採取などの設定が高めに設定されています

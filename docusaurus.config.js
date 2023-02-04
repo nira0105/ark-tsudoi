@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'i2021', // Usually your GitHub org/user name.
+  organizationName: 'i2023', // Usually your GitHub org/user name.
   projectName: 'dinosaur-homepage', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -33,18 +33,10 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,8 +51,8 @@ const config = {
       navbar: {
         title: 'ホーム',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'My Site Log',
+          src: '/img/join/ARK.webp',
         },
         items: [
           {
@@ -88,8 +80,36 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: 'サーバー設定',
+                label: 'サーバールール',
                 to: '/docs/rule',
+              },
+              {
+                label: 'サーバー設定',
+                to: '/docs/setting',
+              },
+              {
+                label: '参加方法',
+                to: '/docs/join',
+              },
+              {
+                label: '支援について',
+                to: '/docs/Feeling',
+              },
+              {
+                label: '導入MODに関して',
+                to: '/docs/MODs',
+              },
+              {
+                label: 'よくある質問',
+                to: '/docs/Question',
+              },
+              {
+                label: 'サポートに関して',
+                to: '/docs/support',
+              },
+              {
+                label: 'その他',
+                to: '/docs/more',
               },
             ],
             
@@ -108,16 +128,13 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'その他',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+            
             ],
           },
         ],
