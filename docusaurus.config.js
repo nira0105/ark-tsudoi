@@ -16,7 +16,7 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'i2023', // Usually your GitHub org/user name.
+  organizationName: 'nira0105', // Usually your GitHub org/user name.
   projectName: 'dinosaur-homepage', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -134,7 +134,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-            
+              {
+                label: 'GitHub',
+                href: 'https://github.com/nira0105/ark-tsudoi',
+              },
             ],
           },
         ],
