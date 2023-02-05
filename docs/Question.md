@@ -65,4 +65,46 @@ ARKプレイヤーサーバー（dinosaur
   詳しくは<a href="/docs/more#スペクテイターモード">スペクテイターモードの使い方</a>をご覧ください
 </details>
 
+## バグと対処法
 
+<details>
+  <summary>ホットバーが使えない　ホットバーのアイテムが消えた</summary>
+  一度死んでみてアイテムを回収したら治っていることが多いです  
+  それでも治らなければ#サポートに問い合わせてください
+</details>
+
+<details>
+  <summary>ARKが何度もクラッシュする</summary>
+  ARKのデータが壊れている可能性があります<a href= "https://help.steampowered.com/ja/faqs/view/0C48-FCBD-DA71-93EB" >整合性確認</a>をしてみましょう<br></br>
+  これでも解決しない場合は雑談などで質問して下さい
+</details>
+
+<!--<details>
+  <summary></summary>
+  
+</details>
+
+<details>
+  <summary></summary>
+  
+</details>
+
+<details>
+  <summary></summary>
+  
+</details>
+
+<details>
+  <summary></summary>
+  
+</details>
+
+<details>
+  <summary></summary>
+  
+</details>
+
+<details>
+  <summary></summary>
+  
+</details>-->

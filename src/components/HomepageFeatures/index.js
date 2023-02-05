@@ -5,16 +5,16 @@ import styles from './styles.module.css';
 const DOCUSAURUS = "/img/docusaurus.png";
 const FeatureList = [
   {
-    title: '充実したサポート',
+    title: <a href= "docs/support" >充実したサポート</a>,
     path:"/img/join/support1.png",
     description: (
       <>
-      バグによるロストななどの<a href= "docs/support" >サポート</a>により、サバイバーロストや死体が埋まる　などのバグ被害の心配が必要なく　ほとんどのバグ等のサポートをしているので安心して遊べます
+      バグによるロストななどのサポートにより、サバイバーロストや死体が埋まる　などのバグ被害の心配が必要なく　ほとんどのバグ等のサポートをしているので安心して遊べます
       </>
     ),
   },
   {
-    title: '遊びやすい設定',
+    title: <a href= "docs/setting" >遊びやすい設定</a>,
     path: "/img/join/setting2.png",
     description: (
       <>
@@ -23,8 +23,8 @@ const FeatureList = [
     ),
   },
   {
-    title: 'しっかりとしたルール',
-    path: "/img/join/Tek_Shield.png",
+    title: <a href= "docs/rule" >しっかりとしたルール</a>,
+    path: "/img/join/rulu.png",
     description: (
       <>
       しっかりとしたルールがあるから　MPK 窃盗　場所取りなどがなく安心して遊べる　また違反者の対処も迅速に行われるので安心して楽しくプレイしていただけます
@@ -50,6 +50,8 @@ const FeatureList = [
     ),
   },
 ];
+
+
 
 function Feature({path, title, description}) {
   return (
