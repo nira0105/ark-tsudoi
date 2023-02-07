@@ -27,6 +27,12 @@ ARKプレイヤーサーバー（dinosaur
 </details>
 
 <details>
+  <summary>Q.invalid server password/パスワードが違うと出て入れない</summary>
+　A.全角入力　Caps Lock　大文字などになってないかを確認してください  
+　もしくはコピペをしてください　コピー時に|||が入らないように気を付けて下さい
+</details>
+
+<details>
   <summary>Q.MODバージョンが一致しませんと出てログインできない</summary>
   A.MODのアップデートが行われた後によくある症状です
   最近アップデートされたMODの（わからなければ導入MOD全てを ）再サブスクリプションすることで解決されます　<a href="/docs/MODs">MODリスト</a>
@@ -46,7 +52,7 @@ ARKプレイヤーサーバー（dinosaur
 
 <details>
   <summary>Q.配信しても大丈夫ですか？</summary>
-  A.どんどん配信して下さい‼　出来れば概要欄などにこのHPのURLを貼ってほしいです　また配信所の方は言ってもらえれば配信者ロールをつけます。
+  A.どんどん配信して下さい‼　出来れば概要欄などにこのHPのURLを貼ってほしいです　また配信者の方は言ってもらえれば配信者ロールをつけます。
 </details>
 
 <details>
@@ -79,32 +85,10 @@ ARKプレイヤーサーバー（dinosaur
   これでも解決しない場合は雑談などで質問して下さい
 </details>
 
-<!--<details>
-  <summary></summary>
-  
-</details>
+<!--
 
 <details>
   <summary></summary>
   
 </details>
-
-<details>
-  <summary></summary>
-  
-</details>
-
-<details>
-  <summary></summary>
-  
-</details>
-
-<details>
-  <summary></summary>
-  
-</details>
-
-<details>
-  <summary></summary>
-  
-</details>-->
+>-->

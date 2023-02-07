@@ -45,7 +45,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="ぜひ参加してください">
+      description="このサーバーは日本発祥の大規模サーバーです。24時間365日全てのマップを提供していますぜひ参加して下さい">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
