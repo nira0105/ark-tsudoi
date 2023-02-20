@@ -128,6 +128,19 @@ const config = {
             ],
           },
           {
+            title: '規約等',
+            items: [
+              {
+                label: '利用規約',
+                href: 'https://discord.gg/mW3jzjunhf',
+              },
+              {
+                label: '特定商取引法に基づく記載',
+                href: '/docs/law/commerce',
+              },
+            ],
+          },
+          {
             title: 'その他',
             items: [
               {
