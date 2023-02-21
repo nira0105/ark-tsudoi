@@ -68,4 +68,8 @@ discord専用ロール　（キングタイタン）
 その他特典諸々
 </details>
 
+
+
+
 [特定商取引法に基づく記載](/docs/law/commerce)
+
