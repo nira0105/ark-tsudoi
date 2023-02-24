@@ -20,7 +20,7 @@ jobs:
         run: npm update --frozen-lockfile --non-interactive
 
       - name: Build
-        run: npm build
+        run: npm run build
 
       - name: Upload
         uses: actions/upload-pages-artifact@v1
