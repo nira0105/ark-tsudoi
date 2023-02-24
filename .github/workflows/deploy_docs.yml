@@ -15,21 +15,17 @@ jobs:
       # 👇 Build steps
       - name: Set up Node.js
         uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          cache: yarn
-
+        
       - name: Install dependencies
-        run: yarn install --frozen-lockfile --non-interactive
+        run: npm update --frozen-lockfile --non-interactive
 
       - name: Build
-        run: yarn build
+        run: npm build
 
       - name: Upload
         uses: actions/upload-pages-artifact@v1
         if: ${{ github.ref == 'refs/heads/main' }}
-        with:
-          path: build
+       
 
   deploy:
     needs: build
