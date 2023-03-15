@@ -6,14 +6,18 @@ sidebar_position: 6
 ARKやこのサーバーに関するよくある質問をまとめました
 ここに無いものなどは、Discordなどで質問してください
 
-## ARKに関する質問
+## サーバーに入れないときの対処法
 
 <details>
-  <summary>Q.他のサーバーや自分のマップから持ち込めますか？</summary>
-A.他の非公式サーバーや、公式サーバーなどからのサバイバー、アイテム、恐竜などは全て持ち込み 持ち出しともにできなくなっています。
+  <summary>Q.You have been kicked by BattlEye と出てログインできない</summary>
+　A.BattlEyeというアンチチートシステムが何らかの原因で動いてない又は壊れている場合があります。<br /><br />
+解決方法としてはBattlEyeの再インストールが有効です。やり方は
 
-ARKプレイヤーサーバー（dinosaur
-サーバー）の別のマップからの持ち込み等は可能です　<a href="https://youtu.be/l9BmAO-0jy8">サーバー間移動方法</a>
+①　\Program Files (x86)\Common FilesにあるBattlEyeのファイルを削除<img src="/img/BattlEye/BattlEye1.jpg" />
+
+②　ARKを起動するとBattlEyeをインストールするか聞かれるのでインストールを選択<img src="/img/BattlEye/BattlEye2.jpg" />
+
+これで解決する場合が多いです
 </details>
 
 <details>
@@ -27,7 +31,7 @@ ARKプレイヤーサーバー（dinosaur
 </details>
 
 <details>
-  <summary>Q.invalid server password/パスワードが違うと出て入れない</summary>
+  <summary>Q.invalid server password/パスワードが違うと出てログインできない</summary>
 　A.全角入力　Caps Lock　大文字などになってないかを確認してください  
 　もしくはコピペをしてください　コピー時に|||が入らないように気を付けて下さい
 </details>
@@ -53,6 +57,14 @@ ARKプレイヤーサーバー（dinosaur
 <details>
   <summary>Q.配信しても大丈夫ですか？</summary>
   A.どんどん配信して下さい‼　出来れば概要欄などにこのHPのURLを貼ってほしいです　また配信者の方は言ってもらえれば配信者ロールをつけます。
+</details>
+
+<details>
+  <summary>Q.他のサーバーや自分のマップから持ち込めますか？</summary>
+A.他の非公式サーバーや、公式サーバーなどからのサバイバー、アイテム、恐竜などは全て持ち込み 持ち出しともにできなくなっています。
+
+ARKプレイヤーサーバー（dinosaur
+サーバー）の別のマップからの持ち込み等は可能です　<a href="https://youtu.be/l9BmAO-0jy8">サーバー間移動方法</a>
 </details>
 
 <details>

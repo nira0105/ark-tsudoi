@@ -14,14 +14,14 @@ function HomepageHeader() {
       
       <div class="css-carousel-slider background">
         <div class="slide-wrap-main">
-            <div class="slide"><img src="/img/hero/1.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/photo con1.png" alt="" /></div>
         </div>
 
         <div class="slide-wrap">
-            <div class="slide"><img src="/img/hero/1.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/2.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/3.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/4.png" alt="" /></div>
+            <div class="slide"><img src="/img/hero/photo con1.png" alt="" /></div>
+            <div class="slide"><img src="/img/hero/photo con2.png" alt="" /></div>
+            <div class="slide"><img src="/img/hero/photo con4.jpg" alt="" /></div>
+            <div class="slide"><img src="/img/hero/photo con5.png" alt="" /></div>
         </div>
       </div>
       <header id="header" className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundColor: "transparent"}}>
