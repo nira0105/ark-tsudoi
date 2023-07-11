@@ -174,6 +174,7 @@ MOD生物やアイテムは通常のサーバーに持っていけないので�
 - トライブ最大人数10人
 
 ### クリア条件
+
 <details>
   <summary>ベータロックウェル</summary>
 6ちびペット（レア度不問　色指定なし）
@@ -184,6 +185,7 @@ MOD生物やアイテムは通常のサーバーに持っていけないので�
 9ちびペット（レア度不問　色指定なし）
 ほか未定意見をくれたら採用するかも
 </details>
+
 - <h3>アルファ監視者</h3>
 
 - クリア報告は一人につき1度まで受け付けます　トライブも一人一人提出してください
@@ -196,10 +198,12 @@ MOD生物やアイテムは通常のサーバーに持っていけないので�
 
 ## 参加いただく配信者様
 ### [ARKは宇宙だ　むーさん](https://youtube.com/@mu.uchuda)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/?list=UUlsfovPQThG1njCRUR0usaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
 picture-in-picture" allowfullscreen></iframe>
 
 ### [桜餅かんたさん](https://youtube.com/@k_SKTMT)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/?list=UUX0_0G24P7-vp7qdPnsnLMA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
 picture-in-picture" allowfullscreen></iframe>
 
