@@ -9,12 +9,6 @@ sidebar_position: 11
 picture-in-picture" allowfullscreen></iframe>
 
 
-## [みしゃぷ / misyapu](https://www.youtube.com/@user-ui4pf5ei1z)
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/?list=UUnqYCUTFz3g4kB_mfM_RbYA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
-picture-in-picture" allowfullscreen></iframe>
-
 
 ## [狼王いちぜん](https://www.youtube.com/@wolf-king1026/featured)
 
