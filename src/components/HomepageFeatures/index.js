@@ -32,7 +32,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '楽しいオリジナルイベント',
+    title: <a href= "docs/event" >楽しいオリジナルイベント</a>,
     path: "/img/join/photo3.png",
     description: (
       <>
