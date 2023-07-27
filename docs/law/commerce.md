@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 3
 ---
 
 # 特定商取引法に元づく表記
