@@ -20,8 +20,8 @@ sidebar_position: 11
 - 持ち物などインベントリや装備類
 ### 引き継ぎ方
 てりにらのDISCORDのDMに引き継ぎたいという希望と自分のsteamID、自分のサバイバーがいるサーバーを伝えてください
-- 引継ぎ可能なサーバー一覧（公式サイト）https://survivetheark.com/index.php?/server-backups/
-- 神ゲー攻略サイト（公式が見つけにくい場合）https://kamigame.jp/ARK/page/277435228316802010.htm
+- [引継ぎ可能なサーバー一覧（公式サイト）](https://survivetheark.com/index.php?/server-backups/)
+- [神ゲー攻略サイト（公式が見つけにくい場合）](https://kamigame.jp/ARK/page/277435228316802010.html)
 （レガシーサーバーは不可です）
 ### 注意点
 - サバイバー引継ぎは一人一回までになります
@@ -42,9 +42,9 @@ sidebar_position: 11
 - バグ生物や盗難生物、RMT品
 
 ### 引き継ぎ方
-こちら（購入リンク準備中）からチケットを購入し、てりにらのDISCORDのDMに引き継ぎたいという希望と自分のsteamID、自分のサバイバーがいるサーバーを伝えてください
-- 引継ぎ可能なサーバー一覧（公式サイト）https://survivetheark.com/index.php?/server-backups/
-- 神ゲー攻略サイト（公式が見つけにくい場合）https://kamigame.jp/ARK/page/277435228316802010.html
+[こちら](https://buy.stripe.com/bIY5lZ3pA8oBeUU145)からチケットを購入し、てりにらのDISCORDのDMに引き継ぎたいという希望と自分のsteamID、自分のサバイバーがいるサーバーを伝えてください
+- [引継ぎ可能なサーバー一覧（公式サイト）](https://survivetheark.com/index.php?/server-backups/)
+- [神ゲー攻略サイト（公式が見つけにくい場合）](https://kamigame.jp/ARK/page/277435228316802010.html)
 （レガシーサーバーは不可です）
 ひとつ購入で1サーバーからの引継ぎができます　複数サーバーからの引継ぎをしたい場合は以下のような設定になっていますこれ以上のサーバーから引き継ぎたい場合は問い合わせてください
 購入時に個数が選択できますのでそこで数を選んで下さい
