@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'ARK非公式サーバー ARKプレイヤーの集い',
   tagline: 'ARKでともにサバイバルを!',
-  url: 'https://ark-tsudoi.f5.si',
+  url: 'https://playark.jp',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
