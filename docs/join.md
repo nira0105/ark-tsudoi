@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+description:ARK非公式サーバー「にら鯖」のログイン方法の記載です　誰でも簡単に参加できます
 ---
 
 # 参加方法
