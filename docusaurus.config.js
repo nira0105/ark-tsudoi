@@ -140,7 +140,7 @@ const config = {
             items: [
               {
                 label: '利用規約',
-                href: 'https://discord.gg/mW3jzjunhf',
+                href: '/docs/law/terms',
               },
               {
                 label: '特定商取引法に基づく記載',
