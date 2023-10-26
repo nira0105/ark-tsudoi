@@ -143,7 +143,7 @@ description: ARK非公式サーバー「にら鯖」で現在行われている�
  <details>
   <summary>ラグナロク</summary>
 
- <img src="static\img\eventphoto\rag.jpg" />
+ <img src="/img/eventphoto/rag.jpg" />
 
 </details>
 
@@ -157,14 +157,14 @@ description: ARK非公式サーバー「にら鯖」で現在行われている�
  <details>
   <summary>ロストアイランド</summary>
 
- <img src="static\img\eventphoto\lost.jpg" />
+ <img src="/img/eventphoto/lost.jpg" />
 
 </details>
  <details>
   <summary>フィヨルド</summary>
   アスガルド
 
-<img src="static\img\eventphoto\fjo.jpg" />
+<img src="/img/eventphoto/fjo.jpg" />
  
 
 </details>
