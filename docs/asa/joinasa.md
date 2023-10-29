@@ -4,8 +4,9 @@ description: 入り方
 ---
 
 # ASAサーバーの入り方
-
-# 参加方法
+:::note info 
+ASAサーバーの入り方は[こちら](/docs/join.md)
+:::
 
 ## 参加条件　
 - [discord](https://discord.gg/mW3jzjunhf)に参加している

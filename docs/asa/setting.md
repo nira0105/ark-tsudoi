@@ -3,7 +3,10 @@ sidebar_position: 2
 description: ASAサーバー設定
 ---
 
-# サーバー設定
+# ASAサーバー設定
+:::note info 
+ASEサーバーの入り方は[こちら](/docs/setting.md)
+:::
 ## 基本設定
 - <h4>テイム倍率 10倍</h4>
 - <h4>採取量　2倍</h4>

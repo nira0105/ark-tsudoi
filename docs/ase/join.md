@@ -1,10 +1,12 @@
 ---
-sidebar_position: 4
+sidebar_position: 1
 description: ARK非公式サーバー「にら鯖」のログイン方法の記載です　誰でも簡単に参加できます
 ---
 
-# 参加方法
-
+# ASEサーバー参加方法
+:::note info 
+ASAサーバーの入り方は[こちら](/asa/joinasa.md)
+:::
 ## 参加条件　
 - [discord](https://discord.gg/mW3jzjunhf)に参加している
 - [ルール](/docs/rule)を守れる方

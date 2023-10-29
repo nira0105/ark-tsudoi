@@ -1,8 +1,8 @@
 ---
-sidebar_position: 10
+sidebar_position: 6
 description: にら鯖ASAについて
 ---
 
-# にら鯖のASA 
+# ASAサーバーに関して
 にら鯖ではASEとは別にASAサーバーも運営しております
 ASAサーバーは現在まだアーリーアクセスなのでバグサポートがありませんご了承ください
