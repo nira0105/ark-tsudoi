@@ -24,7 +24,7 @@ discordのGEN2資源情報チャンネルから
 - その日にとれるメイン資源とサブ資源
 を確認できます　これはいつでも見ることができます
 
-<img alt="notice1" src="\img\arkapi\notice1.jpg" width="40%"/>
+<img alt="notice1" src="/img/arkapi/notice1.jpg" width="40%"/>
 
 ### エクスティンクションゲーム内通知
 ゲーム内でOSDやエレメントノードが出現したときにどの難易度が出現したかを通知します
@@ -36,4 +36,4 @@ discordのOSD ノード出現情報から
 （通知が来てから実際に出現するまで数分かかることがあります）
 を確認できます　
 
-<img alt="notice2" src="\img\arkapi\notice2.jpg" width="40%"/>
+<img alt="notice2" src="/img/arkapi/notice2.jpg" width="40%"/>
