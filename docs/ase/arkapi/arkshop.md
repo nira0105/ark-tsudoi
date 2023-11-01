@@ -11,7 +11,7 @@ ARKショップとは物の売り買い　ポイントの送信ができる「�
 F1キーを押すことでショップの画面を開くことができます。
 <details>
   <summary>購入の仕方</summary>
-  <img src="\img\arkapi\arkshop1.jpg" />
+  <img src="/img/arkapi/arkshop1.jpg" />
   ①購入タブですここからアイテムを購入できます<br></br>
   ②売却タブですここからアイテムを売却出来ます<br></br>
   ③ポイント送信タブですここから他のプレイヤーにポイントを送信できます<br></br>
@@ -30,7 +30,7 @@ F1キーを押すことでショップの画面を開くことができます。
 </details>
 <details>
   <summary>売却の仕方</summary>
-  <img src="\img\arkapi\arkshop2.jpg" />
+  <img src="/img/arkapi/arkshop2.jpg" />
   ①売る数を表しています。現在はすべて1つになっています<br></br>
   ②何ポイントで売却できるかを表しています<br></br>
   ③何個売るかを表しています<br></br>
@@ -38,7 +38,7 @@ F1キーを押すことでショップの画面を開くことができます。
 </details>
 <details>
   <summary>ポイント送信の仕方</summary>
-  <img src="\img\arkapi\arkshop3.jpg" />
+  <img src="/img/arkapi/arkshop3.jpg" />
   ①送信するポイントの数を入力してください<br></br>
   ②送信を確定します<br></br>
 
