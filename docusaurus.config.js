@@ -93,11 +93,11 @@ const config = {
               },
               {
                 label: 'サーバー設定',
-                to: '/docs/setting',
+                to: '/docs/ase/setting',
               },
               {
                 label: '参加方法',
-                to: '/docs/join',
+                to: '/docs/ase/join',
               },
               {
                 label: '支援について',
@@ -105,7 +105,7 @@ const config = {
               },
               {
                 label: '導入MODに関して',
-                to: '/docs/MODs',
+                to: '/docs/ase/MODs',
               },
               {
                 label: 'よくある質問',
