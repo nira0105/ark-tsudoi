@@ -12,7 +12,7 @@ sidebar_position: 2
 その恐竜の名前の一部でもヒットします
 
 この機能は一回の使用に750ポイントを利用します
-ポイントについては[こちら](docs/arkapi/arkshop.md)
+ポイントについては[こちら](/docs/ase/arkapi/arkshop.md)
 
 検索結果の表示時間は30秒です
 
