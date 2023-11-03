@@ -31,7 +31,7 @@ function HomepageHeader() {
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/join">
+              to="/docs/ase/join">
               参加方法はこちらから
             </Link>
           </div>
