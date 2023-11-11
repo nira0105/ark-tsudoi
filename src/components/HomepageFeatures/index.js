@@ -14,7 +14,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href= "docs/setting" >遊びやすい設定</a>,
+    title: <a href= "docs/ase/setting" >遊びやすい設定</a>,
     path: "/img/join/setting2.png",
     description: (
       <>
