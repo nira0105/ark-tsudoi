@@ -5,7 +5,7 @@ description: 入り方
 
 # ASAサーバーの入り方
 :::note info 
-ASAサーバーの入り方は[こちら](/docs/ase/join.md)
+ASEサーバーの入り方は[こちら](/docs/ase/join.md)
 :::
 
 ## 参加条件　
