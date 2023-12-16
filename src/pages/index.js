@@ -39,7 +39,7 @@ alt="ASE" width="25" height="25"></img>ASEサーバー参加方法はこちら�
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
-              to="/docs/asa/join">
+              to="/docs/asa/asajoin">
               <img src="/img/hero/ASAicon.png" 
 alt="ASE" width="25" height="25"></img>ASAサーバー参加方法はこちらから
             </Link>
