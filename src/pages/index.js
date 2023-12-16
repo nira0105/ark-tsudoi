@@ -32,7 +32,16 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/ase/join">
-              参加方法はこちらから
+              <img src="/img/hero/ASEicon.png" 
+alt="ASE" width="25" height="25"></img>ASEサーバー参加方法はこちらから
+            </Link>
+          </div>
+          <div className={styles.buttons}>
+            <Link
+              className="button button--secondary button--lg"
+              to="/docs/asa/join">
+              <img src="/img/hero/ASAicon.png" 
+alt="ASE" width="25" height="25"></img>ASAサーバー参加方法はこちらから
             </Link>
           </div>
         </div>

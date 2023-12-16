@@ -9,6 +9,7 @@ ASEサーバーの入り方は[こちら](/docs/ase/join.md)
 :::
 
 ## 参加条件　
+- Steam・PS5・XBOXseriesS/XのいずれかのASAを所有している
 - [discord](https://discord.gg/mW3jzjunhf)に参加している
 - [ルール](/docs/rule)を守れる方
 - マナー等の一般常識がある方

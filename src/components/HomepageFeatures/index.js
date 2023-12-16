@@ -41,11 +41,20 @@ const FeatureList = [
     ),
   },
   {
-    title: '全てのマップが遊べる',
+    title: 'ASEすべてのマップが遊べる',
     path: "/img/join/ARKultimate.png",
     description: (
       <>
-      日本では数少ない 全てのマップが遊べるサーバとなっています またイベントマップとして縛りマップやMODマップもあります 現在はMODマップタエニアステラが開かれています
+      日本では数少ない ASE全てのマップが遊べるサーバとなっています またイベントマップとして縛りマップやMODマップなども定期的に開かれます
+      </>
+    ),
+  },
+  {
+    title: 'ASAサーバーも完備',
+    path: "/img/hero/ASAheader.png",
+    description: (
+      <>
+      ARK Survival Evolvedのリメイク版Ark Survival Ascendedのサーバーも24時間開かれています PCはもちろん PS版でもご利用いただけます
       </>
     ),
   },
