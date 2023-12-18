@@ -5,7 +5,7 @@ description: ARK非公式サーバー「にら鯖」のログイン方法の記�
 
 # ASEサーバー参加方法
 :::note info 
-ASAサーバーの入り方は[こちら](/asa/joinasa.md)
+ASAサーバーの入り方は[こちら](/asa/join.md)
 :::
 ## 参加条件　
 - SteamのASEを所有している(PS5などの方はASEサーバーには参加できません)
