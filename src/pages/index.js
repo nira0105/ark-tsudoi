@@ -32,16 +32,17 @@ function HomepageHeader() {
             <Link
               className="button button--secondary button--lg"
               to="/docs/ase/join">
-              <img src="/img/hero/ASEicon.png" 
-alt="ASE" width="25" height="25"></img>ASEサーバー参加方法はこちらから
+              <img src="/img/logos/ASElogo2.png" 
+alt="logo" height="30px"style={{verticalAlign: "middle"}}></img>ASEサーバー参加方法はこちらから
+
             </Link>
           </div>
           <div className={styles.buttons}>
             <Link
               className="button button--secondary button--lg"
               to="/docs/asa/join">
-              <img src="/img/hero/ASAicon.png" 
-alt="ASE" width="25" height="25"></img>ASAサーバー参加方法はこちらから
+              <img src="/img/logos/ASAlogo2.png" 
+alt="logo" height="30px"style={{verticalAlign: "middle"}}></img>ASAサーバー参加方法はこちらから
             </Link>
           </div>
         </div>
@@ -54,7 +55,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      description="このサーバーは日本発祥の大規模サーバーです。24時間365日全てのマップを提供していますぜひ参加して下さい">
+      description="このサーバーは日本最大のサーバーです。24時間365日ASE・ASAともに全てのマップを提供していますぜひ参加して下さい">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

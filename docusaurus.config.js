@@ -14,14 +14,6 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-    themeConfig: {
-      // Declare some <meta> tags
-      metadata: [
-        {name: 'keywords', content: 'ARK,ARK非公式サーバ,ARKdiscord,にら鯖,ARKPC版サーバー'},
-        {name: 'description', content: 'ARK非公式サーバー「にら鯖」では24時間365日全てのマップを提供しています。初心者から玄人の方までが楽しめるようなサーバーを提供しています。現在3000人程度の日本最大の非公式サーバーですぜひ参加してみてください‼︎'},
-      ]
-    },
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nira0105', // Usually your GitHub org/user name.
@@ -168,6 +160,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      metadata: [
+        {name: 'keywords', content: 'ARK,ARK非公式サーバ,ARKdiscord,にら鯖,ARKPC版サーバー'},
+        {name: 'description', content: 'ARK非公式サーバー「にら鯖」では24時間365日全てのマップを提供しています。初心者から玄人の方までが楽しめるようなサーバーを提供しています。現在3000人程度の日本最大の非公式サーバーですぜひ参加してみてください‼︎'},
+      ]
     }),
 };
 
