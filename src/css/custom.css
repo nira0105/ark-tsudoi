@@ -88,19 +88,19 @@ html[data-theme="light"] .for-dark { display: none; }
 
 /* スライド設定 */
 .css-carousel-slider .slide-wrap {
-  width: 400%; /* 画像の合計数*100%を設定(*2) */
+  width: 800%; /* 画像の合計数*100%を設定(*2) */
   position: absolute;
   display: flex;
   top: 0;
   left: 0;
   z-index: 0;
-  animation: css-carousel-slider 25s infinite; /* スライダーアニメーション全体の時間(*3) */
+  animation: css-carousel-slider 50s infinite; /* スライダーアニメーション全体の時間(*3) */
   animation-delay: 2s; /* スライダーが始まるまでの時間(*4) */
 }
 .css-carousel-slider .slide-wrap-main {
   width: 100%;
   z-index: 1;
-  animation: css-carousel-slider-main 25s infinite; /* (*3)と同じ内容を設定 */
+  animation: css-carousel-slider-main 50s infinite; /* (*3)と同じ内容を設定 */
   animation-delay: 2s; /* (*4)と同じ内容を設定 */
 }
 .css-carousel-slider .slide {
@@ -111,17 +111,29 @@ html[data-theme="light"] .for-dark { display: none; }
 @keyframes css-carousel-slider {
   0% { transform: translateX(0); }
 
-  20% { transform: translateX(calc(1 / 4 * -100%)); }
-  25% { transform: translateX(calc(1 / 4 * -100%)); }
+  10% { transform: translateX(calc(1 / 8 * -100%)); }
+  12.5% { transform: translateX(calc(1 / 8 * -100%)); }
 
-  45% { transform: translateX(calc(2 / 4 * -100%)); }
-  50% { transform: translateX(calc(2 / 4 * -100%)); }
+  22.5% { transform: translateX(calc(2 / 8 * -100%)); }
+  25% { transform: translateX(calc(2 / 8 * -100%)); }
 
-  70% { transform: translateX(calc(3 / 4 * -100%)); }
-  75% { transform: translateX(calc(3 / 4 * -100%)); }
+  35% { transform: translateX(calc(3 / 8 * -100%)); }
+  37.5% { transform: translateX(calc(3 / 8 * -100%)); }
 
-  95% { transform: translateX(calc(4 / 4 * -100%)); }
-  100% { transform: translateX(calc(4 / 4 * -100%)); }
+  47.5% { transform: translateX(calc(4 / 8 * -100%)); }
+  50% { transform: translateX(calc(4 / 8 * -100%)); }
+
+  60% { transform: translateX(calc(5 / 8 * -100%)); }
+  62.5% { transform: translateX(calc(5 / 8 * -100%)); }
+
+  72.5% { transform: translateX(calc(6 / 8 * -100%)); }
+  75% { transform: translateX(calc(6 / 8 * -100%)); }
+
+  85% { transform: translateX(calc(7 / 8 * -100%)); }
+  87.5% { transform: translateX(calc(7 / 8 * -100%)); }
+
+  97.5% { transform: translateX(calc(8 / 8 * -100%)); }
+  100% { transform: translateX(calc(8 / 8 * -100%)); }
 }
 
 @keyframes css-carousel-slider-main {
