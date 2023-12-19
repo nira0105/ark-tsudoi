@@ -32,112 +32,86 @@
 html[data-theme="dark"] .for-light { display: none; }
 html[data-theme="light"] .for-dark { display: none; }
 
-.heroContainer {
-  background-color: rgba(255, 255, 255, 0.35);
-  padding: 5vh;
-  border-radius: 0.6rem;
-  align-items: center;
+/* ヒーロー */
+.hero {
+  height: 100vh;
+  padding: 0;
 }
-.slide img { height: 56.3vw; }
 
+@media screen and (max-width: 480px) {
+  .hero {
+    height: unset;
+  }
+}
+
+/* タイトル */
 .hero {
   color: black;
-  height: 56.3vw !important;
+  justify-content: space-around;
 }
 
-@media screen and (max-width: 430px) {
-  .hero__title { font-size: 33px; }
-  .hero {
-    padding: 0 !important;
-  }
-  .heroContainer { margin: 2rem; }
-}
-
-@media screen and (min-width: 431px) and (max-width: 900px) {
-  
-  .heroContainer { margin: 2rem; }
-}
-
-@media screen and (min-width: 901px) and (max-width: 999px) {
-  .heroContainer { margin-left: 50wh; }
-  
-}
-
-
-
-.heroFont { display: inline; }
-
-.background {
-  position: absolute !important;
+/* タイトルやボタンを見やすくするための半透明な背景 */
+.hero > .inner {
+  background-color: rgba(255, 255, 255, 0.60);
+  border-radius: 0.6rem;
   align-items: center;
-  z-index: -999;
-  max-width: 100%;
+  text-align: center;
+  font-size: 10px;
+  padding: 1vh;
+  margin: 4vw;
 }
 
-.css-carousel-slider {
-  width: 100%;
-  /* max-width: 800px */ /* サイズ設定をする場合はここ(*1) */
-  overflow: hidden;
-  position: relative;
-}
-.css-carousel-slider img {
-  width: 100%;
-  max-height: 100%;
-  vertical-align: top;
+
+@media screen and (max-width: 480px) {
+  .hero > .inner {
+    margin: 10px;
+  }
 }
 
-/* スライド設定 */
-.css-carousel-slider .slide-wrap {
-  width: 800%; /* 画像の合計数*100%を設定(*2) */
-  position: absolute;
-  display: flex;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  animation: css-carousel-slider 50s infinite; /* スライダーアニメーション全体の時間(*3) */
-  animation-delay: 2s; /* スライダーが始まるまでの時間(*4) */
-}
-.css-carousel-slider .slide-wrap-main {
-  width: 100%;
-  z-index: 1;
-  animation: css-carousel-slider-main 50s infinite; /* (*3)と同じ内容を設定 */
-  animation-delay: 2s; /* (*4)と同じ内容を設定 */
-}
-.css-carousel-slider .slide {
-  width: 100%;
+.hero > .inner > .button {
+  margin: 10px;
 }
 
-/* スライダーアニメーションの設定(*5) */
-@keyframes css-carousel-slider {
-  0% { transform: translateX(0); }
-
-  10% { transform: translateX(calc(1 / 8 * -100%)); }
-  12.5% { transform: translateX(calc(1 / 8 * -100%)); }
-
-  22.5% { transform: translateX(calc(2 / 8 * -100%)); }
-  25% { transform: translateX(calc(2 / 8 * -100%)); }
-
-  35% { transform: translateX(calc(3 / 8 * -100%)); }
-  37.5% { transform: translateX(calc(3 / 8 * -100%)); }
-
-  47.5% { transform: translateX(calc(4 / 8 * -100%)); }
-  50% { transform: translateX(calc(4 / 8 * -100%)); }
-
-  60% { transform: translateX(calc(5 / 8 * -100%)); }
-  62.5% { transform: translateX(calc(5 / 8 * -100%)); }
-
-  72.5% { transform: translateX(calc(6 / 8 * -100%)); }
-  75% { transform: translateX(calc(6 / 8 * -100%)); }
-
-  85% { transform: translateX(calc(7 / 8 * -100%)); }
-  87.5% { transform: translateX(calc(7 / 8 * -100%)); }
-
-  97.5% { transform: translateX(calc(8 / 8 * -100%)); }
-  100% { transform: translateX(calc(8 / 8 * -100%)); }
+/* 背景を変化させる */
+.wallpaper-slide {
+  /* アニメーションを設定 */
+  animation: 64s wallpaper-slide 1s ease infinite;
+  background-size: cover;
+  background-position: center center;
 }
 
-@keyframes css-carousel-slider-main {
-  0% { transform: translateX(100%); }
-  75% { transform: translateX(100%); }
-  95% { transform: translateX(0%);}
+@media screen and (max-width: 480px) {
+  .wallpaper-slide {
+    background-repeat: no-repeat;
+  }
+}
+
+@keyframes wallpaper-slide {
+  0% {
+    background-image: url(/img/hero/photo con6.jpg);
+  }
+  12.5% {
+    background-image: url(/img/hero/photo con7.jpg);
+  }
+  25% {
+    background-image: url(/img/hero/photo con8.jpg);
+  }
+  37.5% {
+    background-image: url(/img/hero/photo con1.png);
+  }
+  50% {
+    background-image: url(/img/hero/photo con2.png);
+  }
+  62.5% {
+    background-image: url(/img/hero/photo con4.jpg);
+  }
+  75% {
+    background-image: url(/img/hero/photo con5.png);
+  }
+  87.5% {
+    background-image: url(/img/hero/photo con2.png);
+  }
+  100% {
+    background-image: url(/img/hero/3.jpg);
+  }
 }

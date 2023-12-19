@@ -10,48 +10,28 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <div>
-      
-      <div class="css-carousel-slider background">
-        <div class="slide-wrap-main">
-            <div class="slide"><img src="/img/hero/photo con6.jpg" alt="" /></div>
-        </div>
+    <header id="header" className="hero wallpaper-slide">
+      <div className="inner">
+        <h1 className="title">{siteConfig.title}</h1>
 
-        <div class="slide-wrap">
-            <div class="slide"><img src="/img/hero/photo con6.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/photo con7.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/photo con8.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/photo con1.png" alt="" /></div>
-            <div class="slide"><img src="/img/hero/photo con2.png" alt="" /></div>
-            <div class="slide"><img src="/img/hero/photo con4.jpg" alt="" /></div>
-            <div class="slide"><img src="/img/hero/photo con5.png" alt="" /></div>
-            <div class="slide"><img src="/img/hero/3.jpg" alt="" /></div>
-        </div>
+        <Link
+          className="button button--secondary button--lx"
+          to="/docs/ase/join"
+        >
+          <img src="/img/logos/ASElogo2.png" alt="logo" height="30px" style={{verticalAlign: "middle"}}></img>
+          ASEサーバー参加方法はこちらから
+        </Link>
+
+        <Link
+          className="button button--secondary button--lx"
+          to="/docs/asa/join"
+        >
+          <img src="/img/logos/ASAlogo2.png" alt="logo" height="30px" style={{verticalAlign: "middle"}}></img>
+          ASAサーバー参加方法はこちらから
+        </Link>
+
       </div>
-      <header id="header" className={clsx('hero hero--primary', styles.heroBanner)} style={{backgroundColor: "transparent"}}>
-
-        <div className="container heroContainer">
-          <h1 className="hero__title heroFont">{siteConfig.title}</h1><br /><br />
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/ase/join">
-              <img src="/img/logos/ASElogo2.png" 
-alt="logo" height="30px"style={{verticalAlign: "middle"}}></img>ASEサーバー参加方法はこちらから
-
-            </Link>
-          </div>
-          <div className={styles.buttons}>
-            <Link
-              className="button button--secondary button--lg"
-              to="/docs/asa/join">
-              <img src="/img/logos/ASAlogo2.png" 
-alt="logo" height="30px"style={{verticalAlign: "middle"}}></img>ASAサーバー参加方法はこちらから
-            </Link>
-          </div>
-        </div>
-      </header>
-    </div>
+    </header>
   );
 }
 
