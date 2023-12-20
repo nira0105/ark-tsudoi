@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css';
 
-const DOCUSAURUS = "/img/docusaurus.png";
+
 const FeatureList = [
   {
     title: <a href= "docs/support" >充実したサポート</a>,
@@ -58,7 +58,6 @@ const FeatureList = [
     ),
   },
 ];
-
 
 
 function Feature({path, title, description}) {
