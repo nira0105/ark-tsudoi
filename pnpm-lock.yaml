@@ -14,9 +14,6 @@ dependencies:
   '@mdx-js/react':
     specifier: ^3.0.0
     version: 3.0.0(@types/react@18.2.45)(react@18.2.0)
-  clsx:
-    specifier: ^2.0.0
-    version: 2.0.0
   prism-react-renderer:
     specifier: ^2.3.1
     version: 2.3.1(react@18.2.0)
