@@ -1,10 +1,4 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* テーマ毎の配色設定。上がライトテーマの時で下がダークテーマの時。 */
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -17,7 +11,6 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
   --ifm-color-primary-dark: #21af90;
@@ -36,7 +29,7 @@ html[data-theme="light"] .for-dark { display: none; }
 /* ヒーロー */
 .hero {
   color: black;
-  height: 95vh; /* 画面いっぱいにする */
+  height: 95vh; /* 画面いっぱいにする。 */
   padding: 3vw;
   justify-content: space-around;
 }
@@ -57,30 +50,36 @@ html[data-theme="light"] .for-dark { display: none; }
 
 /* ボタンの調整 */
 .hero-content > .button {
-  position: relative;
   margin: 1vh 3vw;
   padding: 10px 1vw;
+  /* ボタンのアイコンをボタンの位置を基に調整するために、相対的な配置と設定する。 */
+  position: relative;
   /* Docusaurusでのデフォルトが`nowrap`だが、それだとはみ出ることがある。 */
   white-space: normal;
 }
 
 .button-icon {
-  vertical-align: middle;
-  margin-right: 1vw;
-  max-height: 2rem;
+  vertical-align: middle; /* 高さを中央にする。 */
+  margin-right: 1vw; /* アイコンと文字列の間に空白を作る。 */
+  max-height: 2rem; /* アイコンが大きくなりすぎないようにする。 */
   max-width: 20%
 }
 
+/*
+  極端に画面の幅が狭い場合は、文字の大きさを自動じゃなく手動設定にする。
+  文字の大きさを小さくしなければ、ボタンの中で改行が発生して不恰好になる。だからこれで小さくする。
+*/
 @media screen and (max-width: 400px) {
   .button-text { font-size: 4vw; }
 }
 
-/* 背景を変化させる */
+/* 背景を変化させる。 */
 .wallpaper-slide {
   /* アニメーションを設定 */
   animation: 64s wallpaper-slide 1s ease infinite;
+  /* いい感じに壁紙を表示させる設定 */
   background-size: cover;
-  background-position: center center;
+  background-position: center center; /* いつも中央に配置するようにする。 */
 }
 
 @media screen and (max-width: 480px) {
@@ -89,6 +88,7 @@ html[data-theme="light"] .for-dark { display: none; }
   }
 }
 
+/* 壁紙の変化する過程の設定 */
 @keyframes wallpaper-slide {
   0% {
     background-image: url(/img/hero/photo con6.jpg);
