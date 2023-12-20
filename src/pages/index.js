@@ -9,23 +9,23 @@ function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <header id="header" className="hero wallpaper-slide">
-      <div className="inner">
-        <h1 className="title">{siteConfig.title}</h1>
+      <div className="hero-content">
+        <h2 className="hero__title heroFont">{siteConfig.title}</h2>
 
         <Link
-          className="button button--secondary button--lx"
+          className="button button--secondary button--lg"
           to="/docs/ase/join"
         >
-          <img src="/img/logos/ASElogo2.png" alt="logo" height="30px" style={{verticalAlign: "middle"}}></img>
-          ASEサーバー参加方法はこちらから
+          <img src="/img/logos/ASElogo2.png" className="button-icon" />
+          <span className="button-text">ASEサーバー参加方法はこちら</span>
         </Link>
 
         <Link
-          className="button button--secondary button--lx"
+          className="button button--secondary button--lg"
           to="/docs/asa/join"
         >
-          <img src="/img/logos/ASAlogo2.png" alt="logo" height="30px" style={{verticalAlign: "middle"}}></img>
-          ASAサーバー参加方法はこちらから
+          <img src="/img/logos/ASAlogo2.png" className="button-icon" />
+          <span className="button-text">ASAサーバー参加方法はこちら</span>
         </Link>
 
       </div>

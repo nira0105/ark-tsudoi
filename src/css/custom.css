@@ -29,47 +29,50 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* テーマ毎に表示するかどうかを変えるためのクラス */
 html[data-theme="dark"] .for-light { display: none; }
 html[data-theme="light"] .for-dark { display: none; }
 
 /* ヒーロー */
 .hero {
-  height: 100vh;
-  padding: 0;
-}
-
-@media screen and (max-width: 480px) {
-  .hero {
-    height: unset;
-  }
-}
-
-/* タイトル */
-.hero {
   color: black;
+  height: 95vh; /* 画面いっぱいにする */
+  padding: 3vw;
   justify-content: space-around;
 }
 
+@media screen and (max-width: 480px) {
+  .hero__title { font-size: 9vw; }
+  /* 壁紙が見づらくなるので、スマホなどの場合は高さを変えない。 */
+  .hero { height: unset; }
+}
+
 /* タイトルやボタンを見やすくするための半透明な背景 */
-.hero > .inner {
+.hero-content {
   background-color: rgba(255, 255, 255, 0.60);
   border-radius: 0.6rem;
-  align-items: center;
   text-align: center;
-  font-size: 10px;
-  padding: 1vh;
-  margin: 4vw;
+  padding: 2vh 2vw;
 }
 
-
-@media screen and (max-width: 480px) {
-  .hero > .inner {
-    margin: 10px;
-  }
+/* ボタンの調整 */
+.hero-content > .button {
+  position: relative;
+  margin: 1vh 3vw;
+  padding: 10px 1vw;
+  /* Docusaurusでのデフォルトが`nowrap`だが、それだとはみ出ることがある。 */
+  white-space: normal;
 }
 
-.hero > .inner > .button {
-  margin: 10px;
+.button-icon {
+  vertical-align: middle;
+  margin-right: 1vw;
+  max-height: 2rem;
+  max-width: 20%
+}
+
+@media screen and (max-width: 400px) {
+  .button-text { font-size: 4vw; }
 }
 
 /* 背景を変化させる */
