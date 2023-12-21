@@ -31,7 +31,8 @@ html[data-theme="light"] .for-dark { display: none; }
   color: black;
   height: 95vh; /* 画面いっぱいにする。 */
   padding: 3vw;
-  justify-content: space-around;
+  /* 内容を重ねたり自由に配置するため、相対的な配置と設定する。 */
+  text-align: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -46,21 +47,23 @@ html[data-theme="light"] .for-dark { display: none; }
   border-radius: 0.6rem;
   text-align: center;
   padding: 2vh 2vw;
+  /* 画面中央に合わせる。 */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 /* ボタンの調整 */
 .hero-content > .button {
   margin: 1vh 3vw;
   padding: 10px 1vw;
-  /* ボタンのアイコンをボタンの位置を基に調整するために、相対的な配置と設定する。 */
-  position: relative;
   /* Docusaurusでのデフォルトが`nowrap`だが、それだとはみ出ることがある。 */
   white-space: normal;
 }
 
 .button-icon {
   vertical-align: middle; /* 高さを中央にする。 */
-  margin-right: 1vw; /* アイコンと文字列の間に空白を作る。 */
+  margin-right: 0.5vw; /* アイコンと文字列の間に空白を作る。 */
   max-height: 2rem; /* アイコンが大きくなりすぎないようにする。 */
   max-width: 20%
 }
@@ -73,48 +76,73 @@ html[data-theme="light"] .for-dark { display: none; }
   .button-text { font-size: 4vw; }
 }
 
-/* 背景を変化させる。 */
-.wallpaper-slide {
-  background-image: url(/img/hero/photo con1.png);
-  /* アニメーションを設定 */
-  animation-duration: 64s;
-  animation-name: wallpaper-slide;
-  animation-function: linear;
+/* 背景の領域を画面いっぱいにする。 */
+.hero-wallpaper {
+  height: 95vh;
+  width: 100%;
+  /* 画像がはみ出ても表示しない。（まだ表示してない画像など。） */
+  overflow: hidden;
+  /* `.hero-content`と重なるようにする。 */
+  position: absolute;
+  left: 0; /* 一調整 */
+}
+
+/* 背景の画像の設定 */
+.hero-wallpaper > img {
+  --wallpaper-frame-count: 8;
+  --wallpaper-interval: 9s;
+  /* 大きさを画面できるだけいっぱいにする。 */
+  display: block;
+  height: 100%;
+  width: 100%;
+  /* 比率を保持しつついい感じにトリミングする。 */
+  object-fit: cover;
+  /* 画像達を全て重ねる。 */
+  position: absolute;
+  /* デフォルトで表示しないでおく。こうしないと最初から全部表示されてしまう。 */
+  opacity: 0;
+  /* 背景の表示順位を調整するために、0に合わせておく。 */
+  z-index: 0;
+  /* アニメーションの設定 */
+  animation-duration: calc(var(--wallpaper-interval) * var(--wallpaper-frame-count));
+  animation-name: wallpaper-frames;
   animation-iteration-count: infinite;
-  animation-delay: 5s;
-  will-change: filter;
-  /* いい感じに壁紙を表示させる設定 */
-  background-size: cover;
-  background-position: center center; /* いつも中央に配置するようにする。 */
+  /* will-change: animation; 重かったらこれを使う。 */
+}
+
+.hero-wallpaper > img:nth-child(1) {
+  animation-delay: -3s;
+}
+.hero-wallpaper > img:nth-child(2) {
+  animation-delay: calc(var(--wallpaper-interval) * 1 - 3s);
+}
+.hero-wallpaper > img:nth-child(3) {
+  animation-delay: calc(var(--wallpaper-interval) * 2 - 3s);
+}
+.hero-wallpaper > img:nth-child(4) {
+  animation-delay: calc(var(--wallpaper-interval) * 3 - 3s);
+}
+.hero-wallpaper > img:nth-child(5) {
+  animation-delay: calc(var(--wallpaper-interval) * 4 - 3s);
+}
+.hero-wallpaper > img:nth-child(6) {
+  animation-delay: calc(var(--wallpaper-interval) * 5 - 3s);
+}
+.hero-wallpaper > img:nth-child(7) {
+  animation-delay: calc(var(--wallpaper-interval) * 6 - 3s);
+}
+.hero-wallpaper > img:nth-child(8) {
+  animation-delay: calc(var(--wallpaper-interval) * 7 - 3s);
 }
 
 /* 壁紙の変化する過程の設定 */
-@keyframes wallpaper-slide {
-  0% {
-    background-image: url(/img/hero/photo con1.png);
-  }
-  12.5% {
-    background-image: url(/img/hero/photo con2.png);
-  }
-  25% {
-    background-image: url(/img/hero/photo con3.jpg);
-  }
-  37.5% {
-    background-image: url(/img/hero/photo con4.jpg);
-  }
-  50% {
-    background-image: url(/img/hero/photo con5.png);
-  }
-  62.5% {
-    background-image: url(/img/hero/photo con6.jpg);
-  }
-  75% {
-    background-image: url(/img/hero/photo con7.jpg);
-  }
-  87.5% {
-    background-image: url(/img/hero/photo con8.jpg);
-  }
-  100% {
-    background-image: url(/img/hero/3.jpg);
-  }
+@keyframes wallpaper-frames {
+  /* ３秒後（フェードイン終わり） */
+  6.25% { opacity: 1; }
+  /* ８秒後（ここからフェードアウト） */
+  11.7% { opacity: 1; }
+  /* １２秒後（フェードアウト終わり） */
+  24% { opacity: 0; }
+  /* 次の背景が映るように、`z-index`を下げる。 */
+  100% { z-index: -1; }
 }

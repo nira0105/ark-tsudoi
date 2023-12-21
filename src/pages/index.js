@@ -9,25 +9,36 @@ function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
 
   return (
-    <header id="header" className="hero wallpaper-slide">
-      <div className="hero-content">
+    <header id="header" class="hero">
+      <div class="hero-wallpaper">
+        <img src="/img/hero/photo con6.jpg" />
+        <img src="/img/hero/photo con7.jpg" />
+        <img src="/img/hero/photo con8.jpg" />
+        <img src="/img/hero/photo con1.png" />
+        <img src="/img/hero/photo con2.png" />
+        <img src="/img/hero/photo con4.jpg" />
+        <img src="/img/hero/photo con5.png" />
+        <img src="/img/hero/3.jpg" />
+      </div>
+
+      <div class="hero-content">
         {/* 壁紙はCSS（`custom.css`）の`wallpaper-slide`とある部分にて設定を行う。HTMLではない。 */}
-        <h2 className="hero__title heroFont">{siteConfig.title}</h2>
+        <h2 class="hero__title heroFont">{siteConfig.title}</h2>
 
         <Link
-          className="button button--secondary button--lg"
+          class="button button--secondary button--lg"
           to="/docs/ase/join"
         >
-          <img src="/img/logos/ASElogo2.png" className="button-icon" />
-          <span className="button-text">ASEサーバー参加方法はこちら</span>
+          <img src="/img/logos/ASElogo2.png" class="button-icon" />
+          <span class="button-text">ASEサーバー参加方法はこちら</span>
         </Link>
 
         <Link
-          className="button button--secondary button--lg"
+          class="button button--secondary button--lg"
           to="/docs/asa/join"
         >
-          <img src="/img/logos/ASAlogo2.png" className="button-icon" />
-          <span className="button-text">ASAサーバー参加方法はこちら</span>
+          <img src="/img/logos/ASAlogo2.png" class="button-icon" />
+          <span class="button-text">ASAサーバー参加方法はこちら</span>
         </Link>
 
       </div>
