@@ -4,6 +4,8 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
+import "./styles.css";
+
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -11,6 +13,10 @@ function HomepageHeader() {
   return (
     <header id="header" className="hero">
       <div className="hero-wallpaper">
+        {/*
+          この壁紙ののimgタグを増やすだではバグります。
+          もし壁紙の画像の数を増やしたい場合は、`./styes.css`の`.hero-wallpaper`に設定しているスタイルを編集してください。
+        */}
         <img src="/img/hero/photo con6.jpg" />
         <img src="/img/hero/photo con7.jpg" />
         <img src="/img/hero/photo con8.jpg" />
