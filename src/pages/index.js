@@ -28,7 +28,6 @@ function HomepageHeader() {
       </div>
 
       <div className="hero-content">
-        {/* 壁紙はCSS（`custom.css`）の`wallpaper-slide`とある部分にて設定を行う。HTMLではない。 */}
         <h2 className="hero__title heroFont">{siteConfig.title}</h2>
 
         <Link
