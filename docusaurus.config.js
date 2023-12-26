@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nira0105', // Usually your GitHub org/user name.
-  projectName: 'dinosaur-homepage', // Usually your repo name.
+  projectName: 'ark-tsudoi', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -51,7 +51,7 @@ const config = {
       navbar: {
         title: 'ホーム',
         logo: {
-          alt: 'My Site Log',
+          alt: 'ARK: Survival Evolved Logo',
           src: '/img/join/ARK.webp',
         },
         items: [
@@ -122,7 +122,7 @@ const config = {
                 href: 'https://discord.gg/mW3jzjunhf',
               },
               {
-                label: 'Twitter',
+                label: 'X（旧Twitter）',
                 href: 'https://twitter.com/niranuranura',
               },
             ],
@@ -154,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© 2023 ${new Date().getFullYear()} てりにら`,
       },
       prism: {
         theme: themes.github,
