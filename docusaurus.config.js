@@ -154,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `© 2023 ${new Date().getFullYear()} てりにら`,
+        copyright: `© 2022-${new Date().getFullYear()} てりにら`,
       },
       prism: {
         theme: themes.github,
