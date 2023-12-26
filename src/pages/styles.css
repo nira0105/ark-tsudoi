@@ -3,7 +3,6 @@
   color: black;
   height: calc(100vh - 60px); /* 画面いっぱいにする。 */
   padding: 3vw;
-  /* 内容を重ねたり自由に配置するため、相対的な配置と設定する。 */
   text-align: center;
 }
 
@@ -20,9 +19,9 @@
   border-radius: 0.6rem;
   text-align: center;
   padding: 2vh 2vw;
-  /* できるだけボタン二つが横並びになるようにする。 */
+  /* できるだけボタン二つが横並びになるように伸ばす。 */
   min-width: 80vw;
-  /* 画面中央に合わせる。 */
+  /* 画面中央に合わせる。また、背景の上に表示されるよう、絶対配置とする。 */
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -34,13 +33,14 @@
 }
 
 /* ボタンの調整 */
-.hero-content > .button {
+.hero-content .button {
   margin: 1vh 3vw;
   padding: 10px 1vw;
   /* Docusaurusでのデフォルトが`nowrap`だが、それだとはみ出ることがある。 */
   white-space: normal;
 }
 
+/* ボタンのアイコンの調整 */
 .button-icon {
   vertical-align: middle; /* 高さを中央にする。 */
   margin-right: 0.5vw; /* アイコンと文字列の間に空白を作る。 */
@@ -56,15 +56,16 @@
   .button-text { font-size: 4vw; }
 }
 
-/* 背景の領域を画面いっぱいにする。 */
 .hero-wallpaper {
-  height: inherit;
+  /* 背景の領域を画面いっぱいにする。 */
+  height: inherit; /* 高さは親要素（`.hero`）に合わせる。 */
   width: 100%;
   /* 画像がはみ出ても表示しない。（まだ表示してない画像など。） */
   overflow: hidden;
   /* `.hero-content`と重なるようにする。 */
   position: absolute;
-  left: 0; /* 一調整 */
+  /* 位置調整 */
+  left: 0;
 }
 
 /* 背景の画像の設定 */
@@ -73,6 +74,7 @@
     壁紙の画像の数と一つの壁紙あたりの表示時間
     これを編集するだけではバグります。
     これを変える場合、変えたのに合わせてキーフレーム設定`wallpaper-frames`を変更してください。
+    また、８個以上の画像を設定する場合、下部にある画像の周期を調整の部分の`nth-child`のまとまりを増やしてください。
   */
   --wallpaper-frame-count: 8;
   --wallpaper-interval: 9s;
@@ -83,7 +85,7 @@
   width: 100%;
   /* 比率を保持しつついい感じにトリミングする。 */
   object-fit: cover;
-  /* 画像達を全て重ねる。 */
+  /* 絶対的な配置にして、画像達を全て重ねる。 */
   position: absolute;
   /* デフォルトで表示しないでおく。こうしないと最初から全部表示されてしまう。 */
   opacity: 0;
@@ -96,6 +98,7 @@
   /* will-change: animation; 重かったらこれを使う。 */
 }
 
+/* 画像の周期を調整 */
 .hero-wallpaper > img:nth-child(1) {
   animation-delay: -3s;
 }
