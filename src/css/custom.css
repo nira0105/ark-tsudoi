@@ -38,7 +38,6 @@ html[data-theme="light"] .for-dark { display: none; }
   border-radius: 0.6rem;
   align-items: center;
 }
-.slide img { height: 56.3vw; }
 
 .hero {
   color: black;
