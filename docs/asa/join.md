@@ -45,6 +45,7 @@ ASEサーバーの入り方は[こちら](/docs/ase/join.md)
 ソート順                                | 名前
 auto favorite | チェックをつける
 show password Protected Servers         | チェックをつける
+show player Servers         | チェックをつける
 セッション                     | unofficial
  
 
