@@ -33,6 +33,7 @@ ASEサーバーの入り方は[こちら](/docs/ase/join.md)
 
 <details>
   <summary>ゲーム内から名前検索する方法(クリックで開く)</summary>
+
   まず、ARKを起動して「join game」を押します。 
 次に検索設定のチェックなどを下の画像又は表の通りにします。
 　<img src="/img/join/joinASA.png" />
@@ -52,5 +53,3 @@ show player Servers         | チェックをつける
     ※パスワードはセキュリティの関係でDiscordのサーバーに関しての一番上にあります
 
 </details>
-
-

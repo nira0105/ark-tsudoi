@@ -61,12 +61,14 @@ ASAサーバーの設定は[こちら](/docs/asa/setting.md)
 
 <details>
   <summary>ジェネシス1</summary>
-　飛行生物騎乗可能
-　ヘキサゴン獲得量３倍
+
+  飛行生物騎乗可能
+  ヘキサゴン獲得量３倍
 </details>
 
 <details>
   <summary>ジェネシス2</summary>
+
   ミッションワールドバフ無効
   ストライダー他マップ持出し不可
   プラットフォーム生物　テイム制限使用枠　5
@@ -77,6 +79,7 @@ ASAサーバーの設定は[こちら](/docs/asa/setting.md)
 
 <details>
   <summary>タエニアステラ</summary>
+
   飛行生物騎乗不可
 </details>
 
@@ -84,4 +87,3 @@ ASAサーバーの設定は[こちら](/docs/asa/setting.md)
 - プレイヤー重量　3.5倍
 - 恐竜重量　2倍
 - 移動速度上がり幅　1.5倍
-
