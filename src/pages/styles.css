@@ -1,0 +1,137 @@
+/* ヒーロー */
+.hero {
+  color: black;
+  height: calc(100vh - 60px); /* 画面いっぱいにする。 */
+  padding: 3vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  /* タイトルテキストが大きすぎないようにする。 */
+  .hero__title { font-size: 8vw; }
+  /* スマホは画面が小さいので、壁紙が何の画像なのかわからなくならないよう大きくする。 */
+  .hero { height: 40vh; }
+}
+
+/* タイトルやボタンを見やすくするための半透明な背景 */
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.60);
+  border-radius: 0.6rem;
+  text-align: center;
+  padding: 2vh 2vw;
+  /* できるだけボタン二つが横並びになるように伸ばす。 */
+  min-width: 80vw;
+  /* 画面中央に合わせる。また、背景の上に表示されるよう、絶対配置とする。 */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+@media screen and (max-width: 480px) {
+  /* スマホだと画面に余裕がないので、なるべく伸ばす。 */
+  .hero-content { min-width: 90%; }
+}
+
+/* ボタンの調整 */
+.hero-content .button {
+  margin: 1vh 3vw;
+  padding: 10px 1vw;
+  /* Docusaurusでのデフォルトが`nowrap`だが、それだとはみ出ることがある。 */
+  white-space: normal;
+}
+
+/* ボタンのアイコンの調整 */
+.button-icon {
+  vertical-align: middle; /* 高さを中央にする。 */
+  margin-right: 0.5vw; /* アイコンと文字列の間に空白を作る。 */
+  max-height: 2rem; /* アイコンが大きくなりすぎないようにする。 */
+  max-width: 20%; /* 横幅を制限して、ボタンの文字列が入る余裕を生む。 */
+}
+
+/*
+  極端に画面の幅が狭い場合は、文字の大きさを自動じゃなく手動設定にする。
+  文字の大きさを小さくしなければ、ボタンの中で改行が発生して不恰好になる。だからこれで小さくする。
+*/
+@media screen and (max-width: 480px) {
+  .button-text { font-size: 4vw; }
+}
+
+.hero-wallpaper {
+  /* 背景の領域を画面いっぱいにする。 */
+  height: inherit; /* 高さは親要素（`.hero`）に合わせる。 */
+  width: 100%;
+  /* 画像がはみ出ても表示しない。（まだ表示してない画像など。） */
+  overflow: hidden;
+  /* `.hero-content`と重なるようにする。 */
+  position: absolute;
+  /* 位置調整 */
+  left: 0;
+}
+
+/* 背景の画像の設定 */
+.hero-wallpaper > img {
+  /*
+    壁紙の画像の数と一つの壁紙あたりの表示時間
+    これを編集するだけではバグります。
+    これを変える場合、変えたのに合わせてキーフレーム設定`wallpaper-frames`を変更してください。
+    また、８個以上の画像を設定する場合、下部にある画像の周期を調整の部分の`nth-child`のまとまりを増やしてください。
+  */
+  --wallpaper-frame-count: 8;
+  --wallpaper-interval: 9s;
+
+  /* 大きさを画面できるだけいっぱいにする。 */
+  display: block;
+  height: 100%;
+  width: 100%;
+  /* 比率を保持しつついい感じにトリミングする。 */
+  object-fit: cover;
+  /* 絶対的な配置にして、画像達を全て重ねる。 */
+  position: absolute;
+  /* デフォルトで表示しないでおく。こうしないと最初から全部表示されてしまう。 */
+  opacity: 0;
+  /* 背景の表示順位を調整するために、0に合わせておく。 */
+  z-index: 0;
+  /* アニメーションの設定 */
+  animation-duration: calc(var(--wallpaper-interval) * var(--wallpaper-frame-count));
+  animation-name: wallpaper-frames;
+  animation-iteration-count: infinite;
+  /* will-change: animation; 重かったらこれを使う。 */
+}
+
+/* 画像の周期を調整 */
+.hero-wallpaper > img:nth-child(1) {
+  animation-delay: -3s;
+}
+.hero-wallpaper > img:nth-child(2) {
+  animation-delay: calc(var(--wallpaper-interval) * 1 - 3s);
+}
+.hero-wallpaper > img:nth-child(3) {
+  animation-delay: calc(var(--wallpaper-interval) * 2 - 3s);
+}
+.hero-wallpaper > img:nth-child(4) {
+  animation-delay: calc(var(--wallpaper-interval) * 3 - 3s);
+}
+.hero-wallpaper > img:nth-child(5) {
+  animation-delay: calc(var(--wallpaper-interval) * 4 - 3s);
+}
+.hero-wallpaper > img:nth-child(6) {
+  animation-delay: calc(var(--wallpaper-interval) * 5 - 3s);
+}
+.hero-wallpaper > img:nth-child(7) {
+  animation-delay: calc(var(--wallpaper-interval) * 6 - 3s);
+}
+.hero-wallpaper > img:nth-child(8) {
+  animation-delay: calc(var(--wallpaper-interval) * 7 - 3s);
+}
+
+/* 壁紙の変化する過程の設定 */
+@keyframes wallpaper-frames {
+  /* ３秒後（フェードイン終わり） */
+  6.25% { opacity: 1; }
+  /* ８秒後（ここからフェードアウト） */
+  11.7% { opacity: 1; }
+  /* １２秒後（フェードアウト終わり） */
+  24% { opacity: 0; }
+  /* 次の背景が映るように、`z-index`を下げる。 */
+  100% { z-index: -1; }
+}

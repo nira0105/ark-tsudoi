@@ -1,8 +1,7 @@
 import React from 'react';
-import clsx from 'clsx';
 import styles from './styles.module.css';
 
-const DOCUSAURUS = "/img/docusaurus.png";
+
 const FeatureList = [
   {
     title: <a href= "docs/support" >充実したサポート</a>,
@@ -32,7 +31,7 @@ const FeatureList = [
     ),
   },
   {
-    title: <a href= "docs/event" >楽しいオリジナルイベント</a>,
+    title: <a href= "docs/event" > 楽しいオリジナルイベント</a>,
     path: "/img/join/photo3.png",
     description: (
       <>
@@ -61,12 +60,11 @@ const FeatureList = [
 ];
 
 
-
 function Feature({path, title, description}) {
   return (
-    <div className={clsx('col col--6 text--center')}>
+    <div className="col col--6 text--center">
      <img src={path} className={styles.featureSvg} role="img" />
-      <div className={clsx("text--center padding-horiz--md")}>
+      <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -78,7 +76,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className={clsx('row')}>
+        <div className="row">
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const { themes } = require('prism-react-renderer');
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -14,18 +14,10 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-    themeConfig: {
-      // Declare some <meta> tags
-      metadata: [
-        {name: 'keywords', content: 'ARK,ARK非公式サーバ,ARKdiscord,にら鯖,ARKPC版サーバー'},
-        {name: 'description', content: 'ARK非公式サーバー「にら鯖」では24時間365日全てのマップを提供しています。初心者から玄人の方までが楽しめるようなサーバーを提供しています。現在3000人程度の日本最大の非公式サーバーですぜひ参加してみてください‼︎'},
-      ]
-    },
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'nira0105', // Usually your GitHub org/user name.
-  projectName: 'dinosaur-homepage', // Usually your repo name.
+  projectName: 'ark-tsudoi', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -59,7 +51,7 @@ const config = {
       navbar: {
         title: 'ホーム',
         logo: {
-          alt: 'My Site Log',
+          alt: 'ARK: Survival Evolved Logo',
           src: '/img/join/ARK.webp',
         },
         items: [
@@ -130,7 +122,7 @@ const config = {
                 href: 'https://discord.gg/mW3jzjunhf',
               },
               {
-                label: 'Twitter',
+                label: 'X（旧Twitter）',
                 href: 'https://twitter.com/niranuranura',
               },
             ],
@@ -162,12 +154,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© 2022-${new Date().getFullYear()} てりにら`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: themes.github,
+        darkTheme: themes.dracula,
       },
+      metadata: [
+        {name: 'keywords', content: 'ARK,ARK非公式サーバ,ARKdiscord,にら鯖,ARKPC版サーバー'},
+        {name: 'description', content: 'ARK非公式サーバー「にら鯖」では24時間365日全てのマップを提供しています。初心者から玄人の方までが楽しめるようなサーバーを提供しています。現在3000人程度の日本最大の非公式サーバーですぜひ参加してみてください‼︎'},
+      ]
     }),
 };
 
