@@ -44,10 +44,10 @@ ASEサーバーの入り方は[こちら](/docs/ase/join.md)
 マップ                                 | 全マップ
 ゲームモード                            | 全モード
 ソート順                                | 名前
-auto favorite | チェックをつける
-show password Protected Servers         | チェックをつける
+自動お気に入り | チェックをつける
+パスワードありのサーバーを表示         | チェックをつける
 show player Servers         | チェックをつける
-セッション                     | unofficial
+セッション                     | 非公式
  
 
     ※パスワードはセキュリティの関係でDiscordのサーバーに関しての一番上にあります
