@@ -5,7 +5,7 @@ description: ASAサーバー設定
 
 # ASAサーバー設定
 :::note info 
-ASEサーバーの入り方は[こちら](/docs/ase/setting.md)
+ASEサーバーの設定は[こちら](/docs/ase/setting.md)
 :::
 ## 基本設定 ()内は一般公開サーバー
 - <h4>テイム倍率 15倍</h4>
