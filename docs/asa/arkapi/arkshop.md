@@ -42,7 +42,7 @@ F1キーを押すことでショップの画面を開くことができます。
 </details>
 
 <details>
-  <summary>ポイント送信の仕方</summary>
+  <summary>ポイント送信の仕方(PC版)</summary>
 
   <img src="/img/arkapi/arkshop3.jpg" />
   ①送信するポイントの数を入力してください<br></br>
