@@ -17,14 +17,15 @@ function HomepageHeader() {
           この壁紙ののimgタグを増やすだではバグります。
           もし壁紙の画像の数を増やしたい場合は、`./styes.css`の`.hero-wallpaper`に設定しているスタイルを編集してください。
         */}
+
+        <img src="/img/hero/photo con2-1.jpg" />
+        <img src="/img/hero/photo con2-3.png" />
+        <img src="/img/hero/photo con2-4.jpg" />
+        <img src="/img/hero/photo con2-6.png" />
+        <img src="/img/hero/photo con2-5.jpg" />
+        <img src="/img/hero/photo con2-7.jpg" />
+        <img src="/img/hero/photo con2-2.jpg" />
         <img src="/img/hero/photo con6.jpg" />
-        <img src="/img/hero/photo con7.jpg" />
-        <img src="/img/hero/photo con8.jpg" />
-        <img src="/img/hero/photo con1.png" />
-        <img src="/img/hero/photo con2.png" />
-        <img src="/img/hero/photo con4.jpg" />
-        <img src="/img/hero/photo con5.png" />
-        <img src="/img/hero/3.jpg" />
       </div>
 
       <div className="hero-content">
