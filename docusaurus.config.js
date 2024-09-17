@@ -104,10 +104,6 @@ const config = {
                 to: '/docs/Question',
               },
               {
-                label: 'サポートに関して',
-                to: '/docs/support',
-              },
-              {
                 label: 'その他',
                 to: '/docs/more',
               },
